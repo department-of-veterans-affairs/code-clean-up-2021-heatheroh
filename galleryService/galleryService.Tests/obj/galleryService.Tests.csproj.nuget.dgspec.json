@@ -1,0 +1,216 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/aaugustine/scrap/galleryService/galleryService.Tests/galleryService.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/aaugustine/scrap/galleryService/galleryService.ServiceInterface/galleryService.ServiceInterface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aaugustine/scrap/galleryService/galleryService.ServiceInterface/galleryService.ServiceInterface.csproj",
+        "projectName": "galleryService.ServiceInterface",
+        "projectPath": "/Users/aaugustine/scrap/galleryService/galleryService.ServiceInterface/galleryService.ServiceInterface.csproj",
+        "packagesPath": "/Users/aaugustine/.nuget/packages/",
+        "outputPath": "/Users/aaugustine/scrap/galleryService/galleryService.ServiceInterface/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aaugustine/scrap/galleryService/NuGet.Config",
+          "/Users/aaugustine/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/servicestack": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5",
+            "projectReferences": {
+              "/Users/aaugustine/scrap/galleryService/galleryService.ServiceModel/galleryService.ServiceModel.csproj": {
+                "projectPath": "/Users/aaugustine/scrap/galleryService/galleryService.ServiceModel/galleryService.ServiceModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5",
+          "dependencies": {
+            "ServiceStack": {
+              "target": "Package",
+              "version": "[5.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aaugustine/scrap/galleryService/galleryService.ServiceModel/galleryService.ServiceModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aaugustine/scrap/galleryService/galleryService.ServiceModel/galleryService.ServiceModel.csproj",
+        "projectName": "galleryService.ServiceModel",
+        "projectPath": "/Users/aaugustine/scrap/galleryService/galleryService.ServiceModel/galleryService.ServiceModel.csproj",
+        "packagesPath": "/Users/aaugustine/.nuget/packages/",
+        "outputPath": "/Users/aaugustine/scrap/galleryService/galleryService.ServiceModel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aaugustine/scrap/galleryService/NuGet.Config",
+          "/Users/aaugustine/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/servicestack": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "ServiceStack.Interfaces": {
+              "target": "Package",
+              "version": "[5.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aaugustine/scrap/galleryService/galleryService.Tests/galleryService.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aaugustine/scrap/galleryService/galleryService.Tests/galleryService.Tests.csproj",
+        "projectName": "galleryService.Tests",
+        "projectPath": "/Users/aaugustine/scrap/galleryService/galleryService.Tests/galleryService.Tests.csproj",
+        "packagesPath": "/Users/aaugustine/.nuget/packages/",
+        "outputPath": "/Users/aaugustine/scrap/galleryService/galleryService.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aaugustine/scrap/galleryService/NuGet.Config",
+          "/Users/aaugustine/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/servicestack": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5",
+            "projectReferences": {
+              "/Users/aaugustine/scrap/galleryService/galleryService.ServiceInterface/galleryService.ServiceInterface.csproj": {
+                "projectPath": "/Users/aaugustine/scrap/galleryService/galleryService.ServiceInterface/galleryService.ServiceInterface.csproj"
+              },
+              "/Users/aaugustine/scrap/galleryService/galleryService.ServiceModel/galleryService.ServiceModel.csproj": {
+                "projectPath": "/Users/aaugustine/scrap/galleryService/galleryService.ServiceModel/galleryService.ServiceModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.8.*, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.*, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.*, )"
+            },
+            "ServiceStack": {
+              "target": "Package",
+              "version": "[5.*, )"
+            },
+            "ServiceStack.Kestrel": {
+              "target": "Package",
+              "version": "[5.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
